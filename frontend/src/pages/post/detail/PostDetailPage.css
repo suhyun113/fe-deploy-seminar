@@ -1,0 +1,110 @@
+.detail-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.detail-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+.detail-content {
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.edit-title-input,
+.edit-content-textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    outline: none;
+    transition: border 0.2s ease-in-out;
+}
+
+.edit-title-input:focus,
+.edit-content-textarea:focus {
+    border-color: #4CAF50;
+}
+
+.edit-content-textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.detail-actions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: flex-end;
+}
+
+.edit-btn,
+.cancel-btn,
+.delete-btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn {
+    background-color: #aaa;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #888;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.loading-text {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #888;
+}

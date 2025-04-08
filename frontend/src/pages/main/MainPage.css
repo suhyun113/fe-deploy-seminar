@@ -1,0 +1,69 @@
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main-header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.write-button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.write-button:hover {
+    background-color: #45a049;
+}
+
+.post-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-table th,
+.post-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+}
+
+.post-table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-table td a:hover {
+    text-decoration: underline;
+}
+
+.empty-row,
+.error-row {
+    text-align: center;
+    color: #999;
+    padding: 2rem;
+}

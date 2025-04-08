@@ -1,0 +1,55 @@
+.write-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write-container h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.write-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.write-form input,
+.write-form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.write-form input:focus,
+.write-form textarea:focus {
+    border-color: #4CAF50;
+}
+
+.write-form textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.write-form button {
+    align-self: flex-end;
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.write-form button:hover {
+    background-color: #45a049;
+}
