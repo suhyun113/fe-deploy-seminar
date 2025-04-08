@@ -1,7 +1,4 @@
-const API_URL = "여기에 백엔드 API 서버 주소가 들어가야해요";
-//const API_URL = process.env.REACT_APP_API_URL;
-
-
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 // 게시글 목록 가져오기
 export async function getPosts() {
