@@ -1,5 +1,4 @@
-const API_URL = "여기에 백엔드 API 서버 주소가 들어가야해요";
-//const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL;
 
 
 
